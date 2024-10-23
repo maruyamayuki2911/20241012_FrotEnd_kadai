@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=], initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="h1">NITAKI</h1>
+  </header>
+  <section id="slick"></section>
+  <section id="product">
+    <div class="product-wrap">
+      <h1 class="h1">らーめん</h1>
+      <div class="product-toolbar">
+        <div class="search-area">
+          <input type="text" class="search" id="search" placeholder="キーワード検索">
+        </div>
+        <h2 class="h2" id="display-number"></h2>
+        <div class="sort-area">
+          <select id="sort-select" class="sort">
+            <option value="">並べ替え</option>
+            <option value="def-order">通常</option>
+            <option value="rec-order">人気順</option>
+            <option value="price-asc">価格の安い順</option>
+            <option value="price-desc">価格の高い順</option>
+          </select>
+        </div>
+      </div>
+      <div id="product-container" class="product-container">
+      <!-- 商品をここに表示 -->
+      </div>
+    </div>
+  </section>
+  <footer></footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
